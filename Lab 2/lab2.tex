@@ -1,0 +1,39 @@
+\documentclass{beamer}
+\usetheme{Pittsburgh}
+\usecolortheme{beaver}
+
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+
+\title{Криптография на эллиптических кривых}
+\subtitle{Введение в специальность}
+\author{Меркулова Ольга, КБ1}
+\institute{БФУ им. Канта}
+\date{\today}
+
+\begin{document}
+	\begin{frame}
+		\titlepage
+	\end{frame}
+
+	\begin{frame}{Задачи}
+		\section{Изучить уравнение эллиптической кривой}
+		\section{Изучить алгоритм маркировки единичного сообщения}
+		\section{Изучить алгоритм демаркировки}
+		\section{Рассмотреть пример маркировки}
+		\tableofcontents
+	\end{frame}
+
+	\begin{frame}{Результат}
+		\section{Результат}
+		В ходе проработки материала:
+		\begin{enumerate}
+			\item были изучены алгоритмы маркировки и демаркировки единичных сообщений
+			\item были выявлены вероятности успешной и неуспешной маркировок за $t$ попыток:
+				\begin{center}
+					$\approx 1 - \dfrac{1}{2^{t}}\approx 0,999...$ и $\approx \dfrac{1}{2^{t}}$
+				\end{center}
+			соответственно   
+		\end{enumerate}	
+	\end{frame}
+\end{document}
